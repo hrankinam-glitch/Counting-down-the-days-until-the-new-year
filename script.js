@@ -1,5 +1,5 @@
 function christmasCountdown () {
-const christmasDate = new Date("December 25, 2025 00:00");
+const christmasDate = new Date("January 01, 2026 00:00");
 //const christmasDate = new Date("February 05, 2024 15:21");
 const now = new Date();
 const diff = christmasDate - now;
@@ -49,3 +49,4 @@ document.querySelector("#myAudio").play();
 
 
 christmasCountdown();
+
