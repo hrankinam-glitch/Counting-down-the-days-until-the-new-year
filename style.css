@@ -1,0 +1,79 @@
+body {
+    background-image: url(premium_photo-1698410904710-5fb3091619ba.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-color:darkblue;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    background-color:rgba(249, 208, 45, 0.607);
+    font-size: 70px;
+    background-color: none;
+    padding: 20px;
+    border: 3px solid black;
+    font-family: 'Protest Riot', sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.newYear {
+    background-color:rgba(249, 208, 45, 0.607);
+    height: 300px;
+    width: 200px;
+    margin-top: 50px;
+    border: 3px solid black;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+.days, .hours, .minutes, .seconds {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+
+.red {
+font-size: 60px;
+background-color: rgba(249, 208, 45, 0.607);
+border: none;
+font-family: 'Protest Guerrilla', sans-serif;
+color: black;
+border-radius: 55%;
+padding: 30px;
+border: 10px black double;
+}
+
+button {
+    margin-left: 100px;
+    border: none;
+}
+
+
+@media all and (max-width: 800px) {
+h1 {
+font-size: 40px;
+ }
+
+}
+
+@media all and (max-width: 500px) {
+    h1 {
+    font-size: 30px;
+     }
+
+    }
